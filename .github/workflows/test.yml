@@ -11,6 +11,6 @@ jobs:
       - name: List files and simple echo command
         #uses: actions/checkout@v2
         run: |
-          - echo "Hello World!"
-          - ls
-          - pwd
+           echo "Hello World!"
+           ls
+           pwd
