@@ -22,3 +22,8 @@ jobs:
         
       - name: see path 
         run: pwd
+        
+      - name: CD and ls Command
+        run: |
+            cd folder1
+            ls
