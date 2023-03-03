@@ -8,13 +8,14 @@ jobs:
   cool_first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: List files and simple echo command
+      - name: Checkout
         uses: actions/checkout@v3
         
-      - name: list files  
+      - name: Echo command
         run: echo "Hello World!"
            
       - name: list files 
         run: ls
+        
       - name: see path 
         run: pwd
