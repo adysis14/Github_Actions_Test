@@ -25,5 +25,5 @@ jobs:
         
       - name: CD and ls Command
         run: |
-            cd ../folder 1
+            cd ../folder\ 1
             ls
